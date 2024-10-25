@@ -1,0 +1,26 @@
+<h1>{{name}}</h1>
+
+<dl>
+  <td>Nombre2:</td>
+  <dd>{{name}}</dd>
+
+  <td>Edad:</td>
+  <dd>{{age}}</dd>
+
+  <td>Nombre 2</td>
+  <dd>{{capitalizedName}}</dd>
+
+  <td>Nombre 3</td>
+  <dd>{{capitalizedDescription}}</dd>
+
+  <td>Nombre 4</td>
+  <dd>Edad 4</dd>
+</dl>
+
+<button class="btn btn-primary mx-2" (click)="cambiarNombre()">
+  Cambiar Nombre
+</button>
+
+<button *ngIf="cambio_edad" class="btn btn-primary mx-2" (click)="cambiarEdad()">
+  Cambiar Nombre
+</button>
